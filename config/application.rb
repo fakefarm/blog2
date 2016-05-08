@@ -23,6 +23,6 @@ module Blog2
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.generators.stylesheets = false
     config.generators.javascripts = false
-    config.generators.helpers = false
+    config.generators.helper = false
   end
 end
